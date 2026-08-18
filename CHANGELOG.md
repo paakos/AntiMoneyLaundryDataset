@@ -5,6 +5,15 @@ documentan aqui. El formato sigue [Keep a Changelog](https://keepachangelog.com/
 
 ## [Unreleased]
 
+### Added
+
+- Se agregaron creditos visibles al dataset IBM Transactions for Anti Money Laundering
+  publicado por Erik Altman en Kaggle.
+- Se agregaron `DATA_LICENSE.md` y `data/DATASET_NOTICE.md` con la licencia
+  CDLA-Sharing-1.0, la cita academica y un aviso detallado de las transformaciones.
+- Se agrego `CITATION.cff` para que GitHub presente el articulo del generador como cita
+  academica preferida.
+
 ### Fixed
 
 - La carga del snapshot usa `azcopy sync --delete-destination=true` para eliminar shards

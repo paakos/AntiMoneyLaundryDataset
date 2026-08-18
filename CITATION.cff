@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: >-
+  This repository contains transformed data derived from the IBM Transactions for
+  Anti Money Laundering dataset. Please cite the original generator paper below.
+title: AntiMoneyLaundryDataset Fabric deployment package
+type: dataset
+authors:
+  - family-names: Ahumada Koschitzky
+    given-names: Pablo
+repository-code: https://github.com/paakos/AntiMoneyLaundryDataset
+url: https://github.com/paakos/AntiMoneyLaundryDataset
+preferred-citation:
+  type: article
+  title: Realistic Synthetic Financial Transactions for Anti-Money Laundering Models
+  authors:
+    - family-names: Altman
+      given-names: Erik
+    - family-names: Blanusa
+      given-names: Jovan
+    - family-names: von Niederhausern
+      given-names: Luc
+    - family-names: Egressy
+      given-names: Beni
+    - family-names: Anghel
+      given-names: Andreea
+    - family-names: Atasu
+      given-names: Kubilay
+  year: 2023
+  doi: 10.48550/arXiv.2306.16424
+  url: https://arxiv.org/abs/2306.16424

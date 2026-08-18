@@ -6,6 +6,22 @@ Lakehouse `GOLD` con las ocho tablas Delta del modelo AML.
 El historial de cambios de datos, automatizacion y despliegue se mantiene en
 [`CHANGELOG.md`](CHANGELOG.md).
 
+## Origen y creditos del dataset
+
+Los datos de este repositorio **no fueron generados por el autor del repositorio**. Los
+snapshots Gold se derivan de **IBM Transactions for Anti Money Laundering (AML)**,
+publicado en Kaggle por [Erik Altman](https://www.kaggle.com/ealtman2019):
+
+- [Dataset original en Kaggle](https://www.kaggle.com/datasets/ealtman2019/ibm-transactions-for-anti-money-laundering-aml)
+- Licencia de los datos: [Community Data License Agreement - Sharing 1.0](https://cdla.dev/sharing-1-0/)
+- Articulo del generador: [Realistic Synthetic Financial Transactions for Anti-Money Laundering Models](https://doi.org/10.48550/arXiv.2306.16424)
+
+Este repositorio redistribuye una transformacion del segmento `HI-Medium`, no el
+dataset original sin modificar. La atribucion completa, las modificaciones realizadas y
+las condiciones aplicables estan documentadas en
+[`data/DATASET_NOTICE.md`](data/DATASET_NOTICE.md) y [`DATA_LICENSE.md`](DATA_LICENSE.md).
+IBM, los autores del dataset y Kaggle no patrocinan ni respaldan este repositorio.
+
 ## Arquitectura de despliegue
 
 Fabric Git Integration sincroniza la definición de `data/Gold.Lakehouse`, pero no
